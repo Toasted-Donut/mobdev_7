@@ -1,18 +1,17 @@
-package com.example.myapplication7;
+package com.example.myapplication7.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.View.OnKeyListener;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.example.myapplication7.R;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MyApp";

@@ -1,4 +1,4 @@
-package com.example.myapplication7;
+package com.example.myapplication7.data;
 
 public class Object {
     private final int number;

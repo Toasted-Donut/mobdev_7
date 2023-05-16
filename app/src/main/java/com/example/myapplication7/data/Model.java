@@ -1,6 +1,9 @@
-package com.example.myapplication7;
+package com.example.myapplication7.data;
 
 import android.content.Context;
+
+import com.example.myapplication7.data.Object;
+import com.example.myapplication7.ui.MyListAdapter;
 
 import java.util.ArrayList;
 

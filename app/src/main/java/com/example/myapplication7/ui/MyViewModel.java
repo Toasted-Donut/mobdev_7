@@ -1,10 +1,12 @@
-package com.example.myapplication7;
+package com.example.myapplication7.ui;
 
 import android.content.Context;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.myapplication7.data.Model;
 
 public class MyViewModel extends ViewModel {
     private MutableLiveData<String> EditText = new MutableLiveData<>();
